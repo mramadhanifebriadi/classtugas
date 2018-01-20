@@ -15,3 +15,6 @@ void Persegipanjang::lebar (int a, int b) {
 int main () {
   Persegipanjang persegi, panjang;
   int a,b;
+  cout<<"Masukkan Panjang  : ";cin>>a;
+  cout<<"Masukkan Lebar    : ";cin>>b;
+  panjang.lebar(a,b);
