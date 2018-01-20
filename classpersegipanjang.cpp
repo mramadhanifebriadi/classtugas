@@ -18,3 +18,6 @@ int main () {
   cout<<"Masukkan Panjang  : ";cin>>a;
   cout<<"Masukkan Lebar    : ";cin>>b;
   panjang.lebar(a,b);
+    cout<<"Luas Persegi Panjang   : "<<panjang.luas()*b<<endl;
+return 0;
+}
