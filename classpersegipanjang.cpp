@@ -12,3 +12,6 @@ void Persegipanjang::lebar (int a, int b) {
   x = a;
   y = b;
 }
+int main () {
+  Persegipanjang persegi, panjang;
+  int a,b;
