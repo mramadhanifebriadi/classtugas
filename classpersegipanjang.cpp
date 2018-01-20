@@ -6,3 +6,9 @@ class Persegipanjang {
     void lebar (int x,int y);
     int luas (void) {
     return (x);
+      }
+};
+void Persegipanjang::lebar (int a, int b) {
+  x = a;
+  y = b;
+}
